@@ -51,7 +51,7 @@ class PageComponent extends React.Component {
         const theme = createTheme(
             {
                 palette: {
-                    primary: { main: '#ea580c' },
+                    primary: { main: '#048ec9' },
                 },
             },
         );

@@ -119,17 +119,18 @@ class LayoutComponet extends React.Component {
       showCancelButton: true,
       showConfirmButton: true,
       html: this.props.t('notification.signout.confirmation', { ns: 'common' }),
-      cancelButtonText: this.props.t('forms.dismiss', { ns: 'common' }),
-      confirmButtonText: this.props.t('forms.continue', { ns: 'common' }),
+      cancelButtonText: this.props.t('forms.dismiss', { ns: 'common' }) ,
+      confirmButtonText: this.props.t('forms.continue', { ns: 'common' }) ,
       buttonsStyling: false,
       allowOutsideClick: false,
       customClass: {
+        actions:'my-actions',
           icon: '',
           title: 'text-red-400',
           container: 'text-xs text-red-200',
           actions: 'flex space-x-3',
-          confirmButton: 'inline-flex justify-center rounded-md border border-gray-300 bg-white px-10 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 sm:col-start-1 sm:mt-0 sm:text-sm',
-          cancelButton: 'inline-flex justify-center rounded-md border border-transparent bg-primary-600 px-10 py-2 text-base font-medium text-white shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 sm:col-start-2 sm:text-sm'
+          confirmButton: 'order-2 inline-flex justify-center rounded-md border border-transparent bg-primary-600 px-10 py-2 text-base font-medium text-white shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 sm:col-start-2 sm:text-sm ',
+          cancelButton: 'order-1 inline-flex justify-center rounded-md border border-gray-300 bg-white px-10 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 sm:col-start-1 sm:mt-0 sm:text-sm'
       }
   }).then((result) => {
       /* Read more about isConfirmed, isDenied below */

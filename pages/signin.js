@@ -156,8 +156,8 @@ class Page extends React.Component {
                                 <Image
                                     className=""
                                     src="/logo.png"
-                                    width={80}
-                                    height={80}
+                                    width={100}
+                                    height={100}
                                     alt={process.env.NEXT_PUBLIC_NAME}
                                 />
                                 <h2 className="text-3xl font-extrabold text-gray-900"> {this.props.t('signin_page.title', { ns: 'auth' })}</h2>
@@ -182,10 +182,10 @@ class Page extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden lg:block relative w-0 flex-1">
+                    <div className="hidden lg:block relative w-0 flex-1 bg-blend-darken">
                         <Image
-                            className="absolute inset-0 h-full w-full object-cover"
-                            src="/backgrounds/bg-3.jpg"
+                            className="absolute inset-0 h-full w-full object-cover "
+                            src="/backgrounds/bg-1.webp"
                             layout='fill'
                             alt="Umozi Source Background"
                         />

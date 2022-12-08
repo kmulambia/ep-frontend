@@ -11,7 +11,7 @@ module.exports = {
     extend: {},
     colors: {
       transparent: 'transparent',
-      primary:colors.orange,
+      primary:colors.lightBlue,
       secondary:colors.green,
       success: colors.green,
       warning:colors.orange,
