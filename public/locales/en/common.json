@@ -1,0 +1,106 @@
+{
+    "navigation": {
+        "home": "home",
+        "back": "back",
+        "back_to_signin": "Go back to sign in page"
+    },
+    "signature": {
+        "dad": "Proudly designed and developed",
+        "arrsvd": "All rights reserved"
+    },
+    "notification": {
+        "updated": "updated",
+        "deleted": "deleted",
+        "warning": "warning",
+        "fetch_data_failed":"failed to fetch data .If this continues contact support services",
+        "signout":{
+            "confirmation":"Are you sure you want to sign out ?  Note : all unsaved data will be lost",
+            "success":"securely signed out succesfully"
+        }
+    },
+    "status": {
+        "active": "active",
+        "inactive": "inactive",
+        "open": "open",
+        "closed": "closed",
+        "success": "success",
+        "failed": "failed"
+    },
+    "models": {
+        "user": {
+            "username": "username",
+            "email": "email",
+            "confirm_email": "confirm email",
+            "phone": "phone",
+            "password": "password",
+            "confirm_password": "confirm password",
+            "role": "role",
+            "status": "status",
+            "created": "created"
+        },
+        "log": {
+            "action": "action",
+            "entity": "entity",
+            "created": "created",
+            "status": "status"
+        }
+    },
+    "tables": {
+        "columns": "columns",
+        "filters": "filters",
+        "clear": "clear",
+        "search": "search",
+        "export": "export",
+        "options": "options"
+    },
+    "forms": {
+        "submit": "submit",
+        "delete": "delete",
+        "remove": "remove",
+        "update": "update",
+        "save": "save",
+        "continue": "continue",
+        "add": "add",
+        "dismiss": "dismiss",
+        "close": "close",
+        "okay": "okay",
+        "cancel": "cancel",
+        "show_password": "show password",
+        "register": "register",
+        "edit": "edit",
+        "manage": "manage",
+        "fields": {
+            "required": "cannot be empty",
+            "invalid": "entry is invalid ",
+            "input_mismatch": "your input does not match the request",
+            "password_mismatch": "passwords do not match",
+            "select_one": "select one"
+        }
+    },
+    "pages": {
+        "home": "home",
+        "users": "users",
+        "logs": "logs",
+        "roles": "roles",
+        "programs": "programs",
+        "members": "members",
+        "reports": "reports",
+        "imports": "imports",
+        "settings": "settings",
+        "help": "help",
+        "privacy": "privacy",
+        "terms": "Terms",
+        "about": "about",
+        "notification": "notification",
+        "signout": "signout",
+        "signin": "signin",
+        "signup": "signup",
+        "forgot-password": "forgot password",
+        "reset-password": "reset password"
+    },
+    "languages": {
+        "english": "english",
+        "french": "french",
+        "swahili": "swahili"
+    }
+}

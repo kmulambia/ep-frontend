@@ -1,0 +1,48 @@
+{
+    "index_page": {
+        "title": "user management",
+        "details":"",
+        "register_user": "Register user",
+        "notification": {
+            "success": "Succesfully registered new user",
+            "failed": "failed to register new user",
+            "failed_duplicate_email": "this email is already in use , please enter another one"
+        }
+    },
+    "manage_page": {
+        "title": "user preferences",
+        "details":"",
+        "tabs": {
+            "general": "general",
+            "security": "security",
+            "logs": "logs"
+        },
+        "notification": {
+            "success": "Succesfully updated user profile",
+            "failed": "failed to  updated user profile"
+        },
+        "components": {
+            "profile": {
+                "title": "profile",
+                "details": "Note :- Updating this information will log you out of the system ."
+            },
+            "account": {
+                "title": "account",
+                "details": "Note :- Updating this information may affect authentication and notifications details"
+            },
+            "security": {
+                "title": "Account type and status",
+                "details": "Note :- Updating this will change user access rights and status (Deactivated users cannot access the system)."
+            },
+            "delete": {
+                "title": "Delete user",
+                "details": "Are you sure you want to delete this user? All of user data will be permanently removed from servers forever. This action cannot be undone.",
+                "message": "Enter email address to permanently delete the user ",
+                "notification": {
+                    "success": "Succesfully deleted user",
+                    "failed": "failed to delete user"
+                }
+            }
+        }
+    }
+}

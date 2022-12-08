@@ -1,0 +1,66 @@
+{
+  "navigation": {
+    "home": "domicile",
+    "back": "Précédent"
+  },
+  "signature": {
+    "designed_and_developed": "Fièrement conçu et développé",
+    "all_rights_reserved": "Tous droits réservés"
+  },
+  "notification": {
+    "success": "succès",
+    "failed": "raté",
+    "updated": "Actualisé",
+    "deleted": "Supprimé",
+    "okay": "d’accord",
+    "cancel": "Annuler"
+  },
+  "models": {
+      "user": {
+        "username": "nom d’utilisateur",
+        "email": "Messagerie électronique",
+        "phone": "Téléphone",
+        "password": "mot de passe",
+        "confirm_password": "Confirmer le mot de passe",
+        "role": "rôle",
+        "status": "statut"
+      }
+  },
+  "forms": {
+    "submit": "Envoyer",
+    "delete": "supprimer",
+    "remove": "enlever",
+    "update": "mettre à jour",
+    "save": "sauvegarder",
+    "fields": {
+      "required": "ne peut pas être vide",
+      "invalid": "L’entrée n’est pas valide ",
+      "password_mismatch": "Les mots de passe ne correspondent pas",
+      "select_one": "Sélectionnez-en un"
+    }
+  },
+  "pages": {
+    "home": "domicile",
+    "users": "utilisatrices",
+    "programs": "programmes",
+    "members": "membres",
+    "reports": "rapports",
+    "imports": "importations",
+    "settings": "paramètres",
+    "help": "aide",
+    "privacy": "vie privée",
+    "terms": "Petits caractères",
+    "about": "environ",
+    "notification": "notification",
+    "signout": "déconnexion",
+    "signin": "connexion",
+    "signup": "s’inscrire",
+    "forgot-password": "mot de passe oublié",
+    "reset-password": "réinitialiser le mot de passe"
+  },
+  "languages": {
+    "english": "Anglais",
+    "french": "Français",
+    "swahili": "Précédent"
+  }
+}

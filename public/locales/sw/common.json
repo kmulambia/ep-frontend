@@ -1,0 +1,66 @@
+{
+    "navigation": {
+        "home": "Nyumbani",
+        "back": "Nyuma"
+    },
+    "signature": {
+        "designed_and_developed": "Kujivunia kubuniwa na kuendelezwa",
+        "all_rights_reserved": "Haki zote zimehifadhiwa"
+    },
+    "notification": {
+        "success": "Mafanikio",
+        "failed": "Imeshindwa",
+        "updated": "Updated",
+        "deleted": "Kufutwa",
+        "okay": "Sawa",
+        "cancel": "Katisha"
+    },
+    "models": {
+        "user": {
+            "username": "jina la mtumiaji",
+            "email": "Barua pepe",
+            "phone": "Simu",
+            "password": "Nywila",
+            "confirm_password": "nywila ya uthibitisho",
+            "role": "Jukumu",
+            "status": "Hali"
+        }
+    },
+    "forms": {
+        "submit": "Wasilisha",
+        "delete": "Futa",
+        "remove": "Ondoa",
+        "update": "Sasisha",
+        "save": "Hifadhi",
+        "fields": {
+            "required": "haiwezi kuwa tupu",
+            "invalid": "Kuingia ni batili ",
+            "password_mismatch": "nywila hazilingani",
+            "select_one": "chagua moja"
+        }
+    },
+    "pages": {
+        "home": "Nyumbani",
+        "users": "Watumiaji",
+        "programs": "Programu",
+        "members": "Washiriki",
+        "reports": "Ripoti",
+        "imports": "Uagizaji",
+        "settings": "Vipimo",
+        "help": "Kusaidia",
+        "privacy": "Faragha",
+        "terms": "Masharti",
+        "about": "Kuhusu",
+        "notification": "Taarifa",
+        "signout": "Kujisajili",
+        "signin": "ishara",
+        "signup": "Kujisajili",
+        "forgot-password": "nywila iliyosahaulika",
+        "reset-password": "weka upya nywila"
+    },
+    "languages": {
+        "english": "Kiingereza",
+        "french": "Kifaransa",
+        "swahili": "Nyuma"
+    }
+}

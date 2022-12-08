@@ -1,0 +1,38 @@
+{
+    "index_page": {
+        "title": "Settings",
+        "details":"",
+        "tabs": {
+            "general": "general",
+            "security": "security",
+            "logs": "logs"
+        },
+        "components": {
+            "profile": {
+                "title": "profile",
+                "details": "Note :- Updating this information will log you out of the system .",
+                "notification": {
+                    "success": "Succesfully updated your profile",
+                    "failed": "failed to  updated your profile"
+                }
+            },
+            "account": {
+                "title": "account",
+                "details": "Note :- Updating this information may affect authentication and notifications details"
+            },
+            "password": {
+                "title": "Authentication password",
+                "details": "Change your account security password (8 Characters minimum) ",
+                "update_password": "update password",
+                "notification": {
+                    "success": "Succesfully update your security passwsord",
+                    "failed": "failed to update your security passwsord"
+                }
+            },
+            "security": {
+                "title": "Account type and status",
+                "details": "Note :- Updating this information will log you out of the system ."
+            }
+        }
+    }
+}
