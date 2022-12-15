@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.my-actions { margin: 0 2em; }
+.sweet-alert-actions { margin: 0 2em; }
 .order-1 { order: 1; }
 .order-2 { order: 2; }
 .order-3 { order: 3; }
